@@ -35,10 +35,9 @@ default, but if you have disabled it, you need to
 [re-enable it](https://wiki.centos.org/AdditionalResources/Repositories){: target="_blank" class="_" }.
 
 In addition, you must use the `overlay2` or `devicemapper` storage driver if you
-use Docker EE. **The `overlay2` driver requires CentOS 7.4 or higher.** On
-production systems using `devicemapper`, you must use `direct-lvm` mode, which
-requires one or more dedicated block devices. Fast storage such as solid-state
-media (SSD) is recommended.
+use Docker EE. On production systems using `devicemapper`, you must use
+`direct-lvm` mode, which requires one or more dedicated block devices. Fast
+storage such as solid-state media (SSD) is recommended.
 
 ### Uninstall old versions
 
