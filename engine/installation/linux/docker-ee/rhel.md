@@ -31,7 +31,7 @@ To install Docker EE, you need the 64-bit version of {{ linux-dist-long }}
 running on `x86_64`, `s390x` (IBM Z), or `ppc64le` (IBM POWER) architectures.
 
 In addition, you must use the `overlay2` or `devicemapper` storage driver.
-**The `overlay2` storage driver is only supported on RHEL 7.4 or higher.** On
+**The `overlay2` storage driver is only supported on RHEL 7.2 or higher.** On
 production systems using `devicemapper`, you must use `direct-lvm` mode, which
 requires one or more dedicated block devices. Fast storage such as solid-state
 media (SSD) is recommended.
