@@ -37,7 +37,7 @@ Docker Community Edition (Docker CE) is not supported on SLES.
 ### OS requirements
 
 To install Docker EE, you need the 64-bit version of SLES 12.x, running on
-`x86_64`, `s390x` (IBM Z), or `ppc64le` (IBM POWER) architectures. Docker EE is
+`x86_64`, `s390x` (IBM Z), or `ppc64le` (IBM Power) architectures. Docker EE is
 not supported on OpenSUSE.
 
 The only supported storage driver for Docker EE on SLES is Btrfs, which will be

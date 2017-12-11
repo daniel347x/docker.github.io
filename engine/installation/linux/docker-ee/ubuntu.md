@@ -43,7 +43,7 @@ To install Docker EE, you need the 64-bit version of one of these Ubuntu version
 - Trusty 14.04 (LTS)
 
 Docker EE is supported on `x86_64` (or `amd64`), `s390x` (IBM Z), and `ppc64el`
-(IBM POWER) architectures.
+(IBM Power) architectures.
 
 Docker EE on Ubuntu supports `overlay2` and `aufs` storage drivers.
 
