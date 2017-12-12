@@ -139,7 +139,13 @@ from the repository.
     > Ubuntu distribution, such as `xenial`.
     >
 
-    **x86_64**:
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" data-target="#x86_64_repo">x86_64 / amd64</a></li>
+      <li><a data-toggle="tab" data-target="#s390x_repo">IBM Z (s390x)</a></li>
+      <li><a data-toggle="tab" data-target="#ppc64el_repo">IBM Power (ppc64el)</a></li>
+    </ul>
+    <div class="tab-content">
+    <div id="x86_64_repo" class="tab-pane fade in active" markdown="1">
 
     ```bash
     $ sudo add-apt-repository \
@@ -148,7 +154,8 @@ from the repository.
        stable-{{ site.docker_ee_version }}"
     ```
 
-    **s390x**:
+    </div>
+    <div id="s390x_repo" class="tab-pane fade" markdown="1">
 
     ```bash
     $ sudo add-apt-repository \
@@ -157,7 +164,8 @@ from the repository.
        stable-{{ site.docker_ee_version }}"
     ```
 
-    **ppc64el**:
+    </div>
+    <div id="ppc64el_repo" class="tab-pane fade" markdown="1">
 
     ```bash
     $ sudo add-apt-repository \
@@ -166,6 +174,8 @@ from the repository.
        stable-{{ site.docker_ee_version }}"
     ```
 
+    </div>
+    </div> <!-- tab-content -->
 
 #### Install Docker EE
 

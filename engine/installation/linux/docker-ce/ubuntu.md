@@ -154,7 +154,14 @@ the repository.
     > to your parent Ubuntu distribution. For example, if you are using
     >  `Linux Mint Rafaela`, you could use `trusty`.
 
-    **amd64**:
+
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" data-target="#x86_64_repo">x86_64 / amd64</a></li>
+      <li><a data-toggle="tab" data-target="#armhf">armhf</a></li>
+      <li><a data-toggle="tab" data-target="#s390x_repo">IBM Z (s390x)</a></li>
+    </ul>
+    <div class="tab-content">
+    <div id="x86_64_repo" class="tab-pane fade in active" markdown="1">
 
     ```bash
     $ sudo add-apt-repository \
@@ -163,7 +170,8 @@ the repository.
        stable"
     ```
 
-    **armhf**:
+    </div>
+    <div id="armhf" class="tab-pane fade" markdown="1">
 
     ```bash
     $ sudo add-apt-repository \
@@ -172,7 +180,8 @@ the repository.
        stable"
     ```
 
-    **s390x**:
+    </div>
+    <div id="s390x_repo" class="tab-pane fade" markdown="1">
 
     ```bash
     $ sudo add-apt-repository \
@@ -180,6 +189,9 @@ the repository.
        $(lsb_release -cs) \
        stable"
     ```
+
+    </div>
+    </div> <!-- tab-content -->
 
     > **Note**: Starting with Docker 17.06, stable releases are also pushed to
     > the **edge** and **test** repositories.
